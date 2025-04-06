@@ -1,5 +1,18 @@
+/* Dark theme styles for the entire application */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  background-color: #080b14;
+  color: #E2E8F0;
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
 .App {
   text-align: center;
+  background-color: #080b14;
+  color: #E2E8F0;
 }
 
 .App-logo {
@@ -14,18 +27,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #080b14;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #E2E8F0;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #3B82F6;
 }
 
 @keyframes App-logo-spin {
